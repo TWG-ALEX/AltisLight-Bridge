@@ -7,13 +7,15 @@ Created by TWG-ALEX.
 
 1: Download file "initserver.sqf"
 
-2: De-pbo your mission file "Exile.Altis.pbo" 
+2: Download file "mission.sqm"
 
-3: Replace "initserver.sqf"in Exile.Altis/ 
+3: De-pbo your mission file "Exile.Altis.pbo" 
 
-4: Pbo your Exile.Altis
+4: Replace "initserver.sqf" and "mission.sqm" in Exile.Altis/ 
 
-5: Upload in your server.
+5: Pbo your Exile.Altis
+
+6: Upload in your server.
 
 
 Thank you
@@ -31,10 +33,12 @@ Creato da TWG-ALEX.
 
 1: Scaricare il file "initserver.sqf"
 
-2: De-pbo il tuo file di missione  "Exile.Altis.pbo" 
+2: Scaricare il file "mission.sqm"
 
-3:Sostituisci "initserver.sqf" in Exile.Altis/ 
+3: De-pbo il tuo file di missione  "Exile.Altis.pbo" 
 
-4: Pbo Exile.Altis
+4:Sostituisci "initserver.sqf" e "mission.sqm" in Exile.Altis/ 
 
-5: Caricalo nel tuo server.
+5: Pbo Exile.Altis
+
+6: Caricalo nel tuo server.
