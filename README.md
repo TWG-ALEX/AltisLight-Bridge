@@ -1,5 +1,6 @@
 # AltisLight-Bridge
-Bridge with Light and harbor light for Altis Map.
+Bridge with Light and harbor light for Altis Map,
+new Concrete Mixer Zone, and new Loot Zone.
 
 Created by TWG-ALEX.
 
@@ -25,7 +26,8 @@ Alex
 
 
 # Ponte Illuminato per Altis
-Ponte con illuminazione e Fari per la mappa di Altis.
+Ponte con illuminazione e Fari per la mappa di Altis,
+nuove zone per Craftare Cemento, e nuova zona di loot.
 
 Creato da TWG-ALEX.
 
