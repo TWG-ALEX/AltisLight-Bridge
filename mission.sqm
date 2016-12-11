@@ -4,6 +4,9 @@ class Mission
 	addOns[]=
 	{
 		"exile_client",
+		"Ryanzombies",
+		"ryanzombiesfunctions",
+		"A3_Characters_F",
 		"a3_map_altis"
 	};
 	addOnsAuto[]=
@@ -1043,10 +1046,9 @@ class Mission
 			};
 		};
 	};
-	
-class Markers
+	class Markers
 	{
-		items=37;
+		items=33;
 
 		class Item0
 		{
@@ -1245,7 +1247,7 @@ class Markers
 
 		class Item18
 		{
-			position[]={14441.7,0,19039.2};
+			position[]={14354.0,0,18960.1};
 			name="ConcreteMixerZoneAthira";
 			text="Concrete Mixer";
 			markerType="ELLIPSE";
@@ -1258,7 +1260,7 @@ class Markers
 		};
 		class Item19
 		{
-			position[]={14441.7,0,19039.2};
+			position[]={14354.0,0,18960.1};
 			name="ConcreteMixerZoneAthiraIcon";
 			text="";
 			type="ExileConcreteMixerZoneIcon";
@@ -1288,7 +1290,7 @@ class Markers
 
 		class Item22
 		{
-			position[]={11524.7,0,14284.7};
+			position[]={11391.2,0,14259.5};
 			name="ConcreteMixerZoneAlikampos";
 			text="Concrete Mixer";
 			markerType="ELLIPSE";
@@ -1301,15 +1303,38 @@ class Markers
 		};
 		class Item23
 		{
-			position[]={11524.7,0,14284.7};
+			position[]={11391.2,0,14259.5};
 			name="ConcreteMixerZoneAlikamposIcon";
 			text="";
 			type="ExileConcreteMixerZoneIcon";
 		};
 
 
-
 		class Item24
+		{
+			position[]={20000.0,0,09800.0};
+			name="ConcreteMixerZonePanagia";
+			text="Concrete Mixer";
+			markerType="ELLIPSE";
+			type="ExileConcreteMixerZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=750;
+			b=750;
+			drawBorder=1;
+		};
+		class Item25
+		{
+			position[]={20000.0,0,09800.0};
+			name="ConcreteMixerZonePanagiaIcon";
+			text="";
+			type="ExileConcreteMixerZoneIcon";
+		};
+		
+		
+		
+
+		class Item26
 		{
 			position[]={21845.1,0,20977.6};
 			name="ContaminatedZoneGhostHotel";
@@ -1322,108 +1347,18 @@ class Markers
 			b=400;
 			drawBorder=1;
 		};
-		class Item25
+		class Item27
 		{
 			position[]={21845.1,0,20977.6};
 			name="ContaminatedZoneGhostHotelIcon";
 			text="";
 			type="ExileContaminatedZoneIcon";
 		};
-				
-		//NEW SPAWN ZONE
 		
-		class Item26
-		{
-			position[]={4600.3633,18.125629,21480.79};
-			name="SpawnOreokastro";
-			text="Oreokastro";
-			type="ExileSpawnZone";
-			markerType="ELLIPSE";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=500;
-			b=500;
-			drawBorder=1;
-		};
-		class Item27
-		{
-			position[]={4600.3633,18.125629,21480.79};
-			name="SpawnOreokastroIcon";
-			text="";
-			type="ExileSpawnZoneIcon";
-		};
+		
+		/////New Spawn
+		
 		class Item28
-		{
-			position[]={14600.3633,18.125629,20800.79};
-			name="SpawnFrini";
-			text="Frini";
-			type="ExileSpawnZone";
-			markerType="ELLIPSE";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=500;
-			b=500;
-			drawBorder=1;
-		};
-		class Item29
-		{
-			position[]={14600.3633,18.125629,20800.79};
-			name="SpawnFriniIcon";
-			text="";
-			type="ExileSpawnZoneIcon";
-		};
-		class Item30
-		{
-			position[]={20900.3633,18.125629,16980.79};
-			name="SpawnParos";
-			text="Paros";
-			type="ExileSpawnZone";
-			markerType="ELLIPSE";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=500;
-			b=500;
-			drawBorder=1;
-		};
-		class Item31
-		{
-			position[]={20900.3633,18.125629,16980.79};
-			name="SpawnParosIcon";
-			text="";
-			type="ExileSpawnZoneIcon";
-		};
-		
-		//New Costruction
-
-		class Item32
-		{
-			position[]={19965.8,0,09804.0};
-			name="ConcreteMixerZonePanagia";
-			text="Concrete Mixer";
-			markerType="ELLIPSE";
-			type="ExileConcreteMixerZone";
-			colorName="ColorBlack";
-			fillName="Border";
-			a=750;
-			b=750;
-			drawBorder=1;
-		};
-		class Item33
-		{
-			position[]={19965.8,0,09804.0};
-			name="ConcreteMixerZonePanagiaIcon";
-			text="";
-			type="ExileConcreteMixerZoneIcon";
-		};
-
-	
-	
-	
-////////////////////////////////////////////////////////////////////////////
-//////////////////////////// NUOVI MARKER //////////////////////////////////
-////////////////////////////////////////////////////////////////////////////
-
-		class Item34
 		{
 			dataType="Marker";
 			position[]={16145.074,1.2940686e+029,14786.795};
@@ -1436,42 +1371,208 @@ class Markers
 			fillName="SolidBorder";
 			a=8;
 			b=1200;
-			angle=334.10193;
+			angle=334.10187;
 			drawBorder=1;
 			id=1;
 			atlOffset=1.2940686e+029;
 		};
+
+		//////spawn
+		
+		class Item29
+		{
+			position[]={4600.3633,18.125629,21480.79};
+			name="SpawnOreokastro";
+			text="Oreokastro";
+			type="ExileSpawnZone";
+			markerType="ELLIPSE";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+		};
+		class Item30
+		{
+			position[]={4600.3633,18.125629,21480.79};
+			name="SpawnOreokastroIcon";
+			text="";
+			type="ExileSpawnZoneIcon";
+		};
+		class Item31
+		{
+			position[]={14600.3633,18.125629,20800.79};
+			name="SpawnFrini";
+			text="Frini";
+			type="ExileSpawnZone";
+			markerType="ELLIPSE";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+		};
+		class Item32
+		{
+			position[]={14600.3633,18.125629,20800.79};
+			name="SpawnFriniIcon";
+			text="";
+			type="ExileSpawnZoneIcon";
+		};
+		
+				
+/*		class Item28
+		{
+			dataType="Marker";
+			position[]={23376.008,1.4756888e+037,17607.313};
+			name="marker_text_1";
+			text="RACING-ZONE";
+			type="hd_dot";
+			colorName="ColorBlack";
+			a=1.5;
+			b=1.5;
+			id=8;
+			atlOffset=1.4756888e+037;
+		};
+		class Item29
+		{
+			dataType="Marker";
+			position[]={23206.467,1.5193041e+037,17217.867};
+			name="marker_text_2";
+			text="Start";
+			type="hd_dot";
+			colorName="ColorBlack";
+			id=9;
+			atlOffset=1.5193041e+037;
+		};
+		class Item30
+		{
+			dataType="Marker";
+			position[]={22979.088,1.5182819e+037,17149.639};
+			name="marker_text_3";
+			text="Finish";
+			type="hd_dot";
+			colorName="ColorBlack";
+			id=10;
+			atlOffset=1.5182819e+037;
+		};
+		class Item31
+		{
+			dataType="Marker";
+			position[]={23360.344,3.1900001,18022.217};
+			name="marker_7";
+			type="mil_warning";
+			id=11;
+		};
+*/
+		class Item34
+		{
+			dataType="Marker";
+			position[]={10000.433,-7.9658203,27476.395};
+			name="marker_text_5";
+			text="Powered By : TwG-Alex";
+			type="hd_dot";
+			colorName="ColorBlack";
+			a=0.5;
+			b=0.5;
+			id=15;
+			atlOffset=143.7372;
+		};
 		class Item35
 		{
 			dataType="Marker";
-			position[]={24657.568,1.330826e+029,18881.648};
-			name="loot_marker";
-			text="LOOT-ZONE";
-			markerType="ELLIPSE";
-			type="ellipse";
-			colorName="ColorRed";
-			alpha=0.55831373;
-			fillName="SolidBorder";
-			a=170;
-			b=170;
-			angle=313.25299;
-			drawBorder=1;
-			id=2;
-			atlOffset=1.330826e+029;
+			position[]={10005.197,-2.8835467e-030,27895.939};
+			name="marker_text_6";
+			text="TwG-EXILE SERVER";
+			type="hd_dot";
+			colorName="ColorBlack";
+			a=0.5;
+			b=0.5;
+			id=16;
+			atlOffset=168.14365;
 		};
 		class Item36
 		{
 			dataType="Marker";
-			position[]={24657.424,1.330826e+029,18882};
-			name="marker_text";
-			text="  LOOT-ZONE";
-			type="hd_dot";
-			id=6;
-			atlOffset=1.330826e+029;
+			position[]={10211.435,-183.50999,29149.934};
+			name="marker_9";
+			type="flag_Italy";
+			id=17;
 		};
-	};	
+/*		class Item35
+		{
+			dataType="Marker";
+			position[]={8480.0195,6.157833e+035,25094.16};
+			name="PVP_marker_2";
+			text="PVP";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			alpha=0.96651083;
+			fillName="Border";
+			a=650;
+			b=650;
+			angle=313.25299;
+			drawBorder=1;
+			id=18;
+			atlOffset=6.157833e+035;
+		};
+		class Item36
+		{
+			dataType="Marker";
+			position[]={8479.7451,6.9605047e+036,25094.07};
+			name="PVP_marker_3";
+			text="PVP";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorRed";
+			alpha=0.96651083;
+			fillName="Border";
+			a=640;
+			b=640;
+			angle=313.25299;
+			drawBorder=1;
+			id=19;
+			atlOffset=6.9605047e+036;
+		};
+		class Item37
+		{
+			dataType="Marker";
+			position[]={8483.9697,4.1214916e+034,25124.598};
+			name="marker_text_4";
+			text="PVP - ZONE";
+			type="hd_dot";
+			colorName="ColorBlack";
+			a=1.5;
+			b=1.5;
+			id=20;
+			atlOffset=4.1214916e+034;
+		};
+		////SPAWN PVP
+		
+		class Item38
+		{
+			position[]={8483.9697,4.1214916e+034,25124.598};
+			name="SpawnPVP";
+			text="PVP-Zone";
+			type="ExileSpawnZone";
+			markerType="ELLIPSE";
+			colorName="ColorRed";
+			fillName="Border";
+			a=500;
+			b=500;
+			drawBorder=1;
+		};
+		class Item39
+		{
+			position[]={8483.9697,4.1214916e+034,25124.598};
+			name="SpawnPvpIcon";
+			text="";
+			type="ExileSpawnZoneIcon";
+		};
+*/
+	};
 };
-
 class Intro
 {
 	addOns[]=
